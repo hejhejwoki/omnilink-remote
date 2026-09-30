@@ -5,7 +5,9 @@ pluginManagement {
         gradlePluginPortal()
     }
 }
-dependencyResolution {
+
+// CORRECTED: It must be 'Management' at the end
+dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
         google()
